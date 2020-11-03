@@ -350,6 +350,19 @@ a {
   height: auto;
   margin-bottom: 1rem; }
 
+#journalNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+  #journalNav ul li {
+    list-style: none;
+    margin: 0 1rem 0 0;
+    padding: 0; }
+    #journalNav ul li ul {
+      display: none; }
+
 #journalNav > * {
   margin-right: 1rem; }
 
