@@ -1,0 +1,162 @@
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-19T13:50:00+00:00\n"
+"PO-Revision-Date: 2020-06-19T13:50:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.ojns.name"
+msgstr "Openjournals theme"
+
+msgid "plugins.themes.ojns.description"
+msgstr "Theme voor openjournals.nl."
+
+msgid "site.noJournals"
+msgstr "Er zijn geen tijdschriften beschikbaar."
+
+
+msgid "plugins.themes.ojn.option.colour.label"
+msgstr "Kies een thema kleur"
+
+msgid "plugins.themes.ojn.option.colour.description"
+msgstr "Any color you like"
+
+
+msgid "plugins.themes.ojn.headerTextColor.label"
+msgstr "Header tekst kleur"
+
+msgid "plugins.themes.ojn.headerTextColor.description"
+msgstr "Kies <em>zwart</em> als je een lichte header kleur gebruikt"
+
+msgid "plugins.themes.default.option.headerTextColor.white"
+msgstr "Wit"
+
+msgid "plugins.themes.default.option.headerTextColor.black"
+msgstr "Zwart"
+
+
+
+msgid "plugins.themes.ojn.becomeReviewer.label"
+msgstr "Toon 'Become Reviewer' button"
+
+msgid "plugins.themes.ojn.becomeReviewer.description"
+msgstr "Deze knop verwijst naar een pagina met het pad: /reviewer"
+
+msgid "plugins.themes.default.option.becomeReviewer.true"
+msgstr "Toon button"
+
+
+
+msgid "plugins.themes.ojn.twitter.label"
+msgstr "Twitter handel"
+
+msgid "plugins.themes.ojn.twitter.description"
+msgstr "Voer de Titter handle in. Er verschijnt een twitter feed op de journal page."
+
+msgid "plugins.themes.ojn.fb.label"
+msgstr "Facebook pagina URL"
+
+msgid "plugins.themes.ojn.fb.description"
+msgstr ""
+
+msgid "plugins.themes.ojn.linkedin.label"
+msgstr "Linkedin Pagina URL"
+
+msgid "plugins.themes.ojn.linkedin.description"
+msgstr ""
+
+msgid "indexSite.welcome"
+msgstr "Welkom bij openjournals.nl"
+
+msgid "indexSite.ourjournals"
+msgstr "Onze tijdschriften"
+
+msgid "indexSite.ourjournals.intro"
+msgstr "We hebben een groeiende collectie tijdschriften."
+
+msgid "site.journalView"
+msgstr "Bekijk het tijdschrift."
+
+msgid "indexSite.aboutoj"
+msgstr "Over openjournals.nl"
+
+msgid "indexSite.text"
+msgstr "<strong>Inclusief</strong><p>Openjournals biedt de middelen en infrastructuur om alle soorten peer-reviewed tijdschriften in open access te publiceren – van internationaal gerenommeerde journals tot bladen met een regionale focus, op voorwaarde dat zij geen kosten (APCs) in rekening brengen bij auteurs.</p><strong>Duurzaam</strong><p>Het platform maakt gebruik van de open source publicatiesoftware Open Journal Systems 3 en wordt beheerd en technisch ondersteund door het KNAW Humanities Cluster, een wetenschappelijke organisatie zonder winstoogmerk. Zo garandeert openjournals duurzaam open access publiceren voor een eerlijke prijs.</p><strong>Transparantie</strong><p>Openjournals biedt volledige transparantie en inspraak in zowel organisatorisch, technisch als financieel opzicht. Redactionele deelnemers van openjournals betalen een vaste jaarlijkse bijdrage voor deelname aan het platform. Zonder ‘article processing costs’ (APCs), abonnementen of bindende contracten, op basis van het non-APC open access model.</p><strong>Voor wie?</strong><p>Openjournals is bedoeld voor alle tijdschriften die (streven naar) wetenschappelijk, peer-reviewed en duurzaam non-APC open access publiceren. Deze standaard is de enige maatstaf voor deelname aan OpenJournals. Meertaligheid, lezersaantallen en verbonden universiteiten of uitgevers vormen geen belemmering voor het publiceren via Openjournals. Het platform richt zich in eerste instantie op tijdschriften en hun uitgevers in Nederlands en België.</p><strong>Openjournals biedt:</strong><ul><li>Een professioneel platform waarop naar huidige academische uitgeefstandaarden open access gepubliceerd kan worden zonder APCs</li><li>Een ingebouwd content management systeem om het beoordelen en verwerken van kopij te versoepelen en overzichtelijk te houden</li><li>Een gemakkelijke manier om Digital Object Identifiers (DOIs) te genereren en te registreren</li><li>Een partnermodel waarin tijdschriften inspraak hebben in de verdere (technische) ontwikkeling van het platform</li><li>Technische ondersteuning en training door de medewerkers van openjournals</li><li>Hulp bij het registreren van het open access tijdschrift in verschillende toonaangevende indexen, zoals de Directory of Open Access Journals</li><li>Transparante prijsmodellen voor typesetting</li><li>Begeleiding en ondersteuning in het vergroten van de zichtbaarheid van uw tijdschrift</li></ul><p>Heeft u interesse of vragen? Neem contact op door te mailen naar info@openjournals.nl</p>"
+
+
+msgid "indexjournal.start.submission"
+msgstr "Artikel indienen"
+
+msgid "indexjournal.becomeReviewer"
+msgstr "Aanmelden als recensent"
+
+
+
+msgid "general.latest.issue"
+msgstr "Nieuwste nummer"
+
+msgid "general.volume"
+msgstr "Jaargang"
+
+msgid "general.issue"
+msgstr "Nummer"
+
+msgid "general.year"
+msgstr "Jaar"
+
+msgid "general.view.issue"
+msgstr "Bekijk dit nummer"
+
+
+
+
+msgid "general.abstract"
+msgstr "Abstract"
+
+msgid "general.datePublished"
+msgstr "Gepubliceerd"
+
+msgid "general.issueFull"
+msgstr "Nummer"
+
+msgid "general.section"
+msgstr "Section"
+
+msgid "general.download"
+msgstr "Download"
+
+msgid "general.how.cite"
+msgstr "Citeren"
+
+msgid "general.licensing"
+msgstr "License"
+
+msgid "general.keywords"
+msgstr "Keywords"
+
+msgid "general.powered.by"
+msgstr "This journal is powered by"
+
+
+msgid "general.search.this.journal"
+msgstr "Zoek in dit tijdschrift"
+
+
+msgid "plugins.block.developedBy.blockTitle"
+msgstr "Developed by"
+
+msgid "archivepage.title"
+msgstr "Archieven"
+
+msgid "aboutpage.title"
+msgstr "Over dit tijdschrift"
+
+msgid "editorialpage.title"
+msgstr "Redactie"
+
+msgid "article.authors"
+msgstr "Auteur(s)"

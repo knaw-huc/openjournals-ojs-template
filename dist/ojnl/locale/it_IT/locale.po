@@ -1,0 +1,176 @@
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-19T13:50:00+00:00\n"
+"PO-Revision-Date: 2020-06-19T13:50:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.ojns.name"
+msgstr "Openjournals.nl theme"
+
+msgid "plugins.themes.ojns.description"
+msgstr "Tema per openjournals.nl."
+
+msgid "site.noJournals"
+msgstr "Nessun giornale."
+
+msgid "plugins.themes.ojn.option.colour.label"
+msgstr "Scegli un colore per il tema."
+
+msgid "plugins.themes.ojn.option.colour.description"
+msgstr ""
+
+
+
+
+msgid "plugins.themes.ojn.becomeReviewer.label"
+msgstr "Mostra il pulsante "Diventa revisore""
+
+msgid "plugins.themes.ojn.becomeReviewer.description"
+msgstr "Questo pulsante fa riferimento a una pagina con il percorso: '/reviewer'
+
+msgid "plugins.themes.default.option.becomeReviewer.true"
+msgstr "Mostra pulsante"
+
+
+
+msgid "plugins.themes.ojn.customThumbnail.label"
+msgstr "Usa miniature di diario personalizzate"
+
+msgid "plugins.themes.ojn.customThumbnail.description"
+msgstr "Usalo per mostrare immagini personalizzate se non ci sono miniature per problemi o articoli. Queste immagini devono essere create in anticipo e aggiunte a questo tema.'
+
+msgid "plugins.themes.default.option.customThumbnail.true"
+msgstr "Usa immagini personalizzate."
+
+
+
+msgid "plugins.themes.ojn.headerTextColor.label"
+msgstr "Colore del testo dell'intestazione"
+
+msgid "plugins.themes.ojn.headerTextColor.description"
+msgstr "Seleziona <em> nero </em> se il colore dell'intestazione è chiaro"
+
+msgid "plugins.themes.default.option.headerTextColor.white"
+msgstr "bianca"
+
+msgid "plugins.themes.default.option.headerTextColor.black"
+msgstr "Nera"
+
+
+
+
+
+msgid "plugins.themes.ojn.twitter.label"
+msgstr "Twitter handle"
+
+msgid "plugins.themes.ojn.twitter.description"
+msgstr "Riempi solo la maniglia. Un feed di Twitter apparirà sulla pagina del diario"
+
+msgid "plugins.themes.ojn.fb.label"
+msgstr "Facebook page url"
+
+msgid "plugins.themes.ojn.fb.description"
+msgstr ""
+
+msgid "plugins.themes.ojn.linkedin.label"
+msgstr "Linkedin Page URL"
+
+msgid "plugins.themes.ojn.linkedin.description"
+msgstr ""
+
+
+msgid "indexSite.welcome"
+msgstr "Benvenuto in openjournals.nl"
+
+msgid "indexSite.ourjournals"
+msgstr "Le nostre riviste"
+
+msgid "indexSite.ourjournals.intro"
+msgstr "Abbiamo una collezione in espansione di riviste."
+
+msgid "site.journalView"
+msgstr "Vai al diario."
+
+
+msgid "indexSite.aboutoj"
+msgstr "Informazioni su openjournals.nl"
+
+msgid "indexSite.text"
+msgstr "<strong>Inclusive </strong><p>Openjournals provides the infrastructure for all types of peer-reviewed journals to publish in open access - from internationally renowned journals to more regional specialised publications, the only condition is that journals agree not to charge authors any fees (i.e. APCs).</p><strong>Sustainable</strong><p>The platform runs open OJS3, the industry standard in open source publication software. The platform is managed in-house by the KNAW Humanities Cluster, a non-profit scientific organisation. In this way, openjournals guarantees a professional and sustainable open access publishing model for a competitive price.</p><strong>Transparency</strong><p>openjournals offers full transparency from an organizational, technical and financial point of view. Member journals pay a fixed annual contribution to host their journal on the platform. openjournals maintains a professional platform without article processing costs (APCs), subscription obligations or binding contracts, based on a non-APC open access model.</p><strong>For whom?</strong><p>openjournals is designed for all journals that are scholarly, peer-reviewed and operate with a sustainable non-APC open access publication model. For journals that strive for this model we are happy to facilitate the transition. Language of publication, readership, university affiliation or publisher are not an obstacle to publishing through openjournals. The platform primarily focuses on journals in the Netherlands and Belgium.</p><strong>openjournals offers:</strong><ul><li>A professional open access publishing  platform which is not dependent on APCs.</li><li>A built-in content management system to streamline the review and processing of submitted articles and improve journal workflow.</li><li>An easy method to generate and register Digital Object Identifiers (DOIs)</li><li>A partnership model in which journals participate in the further (technical) development of the platform.</li><li>Technical support and training by the in-house openjournals team</li><li>Assistance in registering journal in indexes, such as the Directory of Open Access Journals (DOAJ)</li><li>Access to transparent and competitive pricing options via our partners for typesetting and editorial assistance.</li><li>Guidance and support in increasing journal visibility </li></ul><p>Are you interested or do you have any questions? Please contact us by sending an email to info@openjournals.nl. </p>"
+
+
+msgid "indexjournal.start.submission"
+msgstr "Inizia la presentazione"
+
+msgid "indexjournal.becomeReviewer"
+msgstr "Diventa un revisore"
+
+
+
+
+msgid "general.latest.issue"
+msgstr "Ultimo numero"
+
+msgid "general.volume"
+msgstr "Volume"
+
+msgid "general.issue"
+msgstr "numero"
+
+msgid "general.year"
+msgstr "Anno"
+
+msgid "general.view.issue"
+msgstr "Visualizza il rilascio"
+
+
+
+
+msgid "general.abstract"
+msgstr "Curriculum vitae"
+
+msgid "general.datePublished"
+msgstr "Pubblicata"
+
+msgid "general.issueFull"
+msgstr "numero"
+
+msgid "general.section"
+msgstr "Section"
+
+msgid "general.download"
+msgstr "Scarica"
+
+msgid "general.how.cite"
+msgstr "Come citare"
+
+msgid "general.keywords"
+msgstr "Parole chiave"
+
+msgid "general.licensing"
+msgstr "Licenza"
+
+msgid "general.powered.by"
+msgstr "Questo giornale è alimentato da"
+
+
+msgid "general.search.this.journal"
+msgstr "Cerca in questo diario"
+
+msgid "archivepage.title"
+msgstr "Archivi"
+
+
+msgid "aboutpage.title"
+msgstr "Sulla rivista"
+
+msgid "editorialpage.title"
+msgstr "Comitato Scientifico ed Editoriale"
+
+msgid "article.authors"
+msgstr "Autrici"

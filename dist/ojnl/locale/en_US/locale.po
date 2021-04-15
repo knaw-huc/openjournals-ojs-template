@@ -1,0 +1,177 @@
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-19T13:50:00+00:00\n"
+"PO-Revision-Date: 2020-06-19T13:50:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.ojns.name"
+msgstr "Openjournals.nl theme"
+
+msgid "plugins.themes.ojns.description"
+msgstr "Theme for openjournals.nl."
+
+msgid "site.noJournals"
+msgstr "No journals."
+
+msgid "plugins.themes.ojn.option.colour.label"
+msgstr "Choose a theme color"
+
+msgid "plugins.themes.ojn.option.colour.description"
+msgstr "Any color you like"
+
+
+
+
+msgid "plugins.themes.ojn.becomeReviewer.label"
+msgstr "Show 'Become Reviewer' button"
+
+msgid "plugins.themes.ojn.becomeReviewer.description"
+msgstr "This button refers to a page with the path: '/reviewer'
+
+msgid "plugins.themes.default.option.becomeReviewer.true"
+msgstr "Show button"
+
+
+
+msgid "plugins.themes.ojn.customThumbnail.label"
+msgstr "Use custom journal thumbnails"
+
+msgid "plugins.themes.ojn.customThumbnail.description"
+msgstr "Use this to show custom images if there are no thumbnails for issues or articles. These images needs to be created in advance and added to this theme.'
+
+msgid "plugins.themes.default.option.customThumbnail.true"
+msgstr "Use custom images."
+
+
+
+
+
+msgid "plugins.themes.ojn.headerTextColor.label"
+msgstr "Header text color"
+
+msgid "plugins.themes.ojn.headerTextColor.description"
+msgstr "Select <em>black</em> if the header color is light"
+
+msgid "plugins.themes.default.option.headerTextColor.white"
+msgstr "White"
+
+msgid "plugins.themes.default.option.headerTextColor.black"
+msgstr "Black"
+
+
+
+
+
+msgid "plugins.themes.ojn.twitter.label"
+msgstr "Twitter handel"
+
+msgid "plugins.themes.ojn.twitter.description"
+msgstr "Fill in just the handle. A twitter feed will appear on the journal page"
+
+msgid "plugins.themes.ojn.fb.label"
+msgstr "Facebook page url"
+
+msgid "plugins.themes.ojn.fb.description"
+msgstr ""
+
+msgid "plugins.themes.ojn.linkedin.label"
+msgstr "Linkedin Page URL"
+
+msgid "plugins.themes.ojn.linkedin.description"
+msgstr ""
+
+
+msgid "indexSite.welcome"
+msgstr "Welcome to openjournals.nl"
+
+msgid "indexSite.ourjournals"
+msgstr "Our Journals"
+
+msgid "indexSite.ourjournals.intro"
+msgstr "We have an expanding collection of journals."
+
+msgid "site.journalView"
+msgstr "Go to journal."
+
+
+msgid "indexSite.aboutoj"
+msgstr "About openjournals.nl"
+
+msgid "indexSite.text"
+msgstr "<strong>Inclusive </strong><p>Openjournals provides the infrastructure for all types of peer-reviewed journals to publish in open access - from internationally renowned journals to more regional specialised publications, the only condition is that journals agree not to charge authors any fees (i.e. APCs).</p><strong>Sustainable</strong><p>The platform runs open OJS3, the industry standard in open source publication software. The platform is managed in-house by the KNAW Humanities Cluster, a non-profit scientific organisation. In this way, openjournals guarantees a professional and sustainable open access publishing model for a competitive price.</p><strong>Transparency</strong><p>Openjournals offers full transparency from an organizational, technical and financial point of view. Member journals pay a fixed annual contribution to host their journal on the platform. Openjournals maintains a professional platform without article processing costs (APCs), subscription obligations or binding contracts, based on a non-APC open access model.</p><strong>For whom?</strong><p>Openjournals is designed for all journals that are scholarly, peer-reviewed and operate with a sustainable non-APC open access publication model. For journals that strive for this model we are happy to facilitate the transition. Language of publication, readership, university affiliation or publisher are not an obstacle to publishing through openjournals. The platform primarily focuses on journals in the Netherlands and Belgium.</p><strong>Openjournals offers:</strong><ul><li>A professional open access publishing  platform which is not dependent on APCs.</li><li>A built-in content management system to streamline the review and processing of submitted articles and improve journal workflow.</li><li>An easy method to generate and register Digital Object Identifiers (DOIs)</li><li>A partnership model in which journals participate in the further (technical) development of the platform.</li><li>Technical support and training by the in-house openjournals team</li><li>Assistance in registering journal in indexes, such as the Directory of Open Access Journals (DOAJ)</li><li>Access to transparent and competitive pricing options via our partners for typesetting and editorial assistance.</li><li>Guidance and support in increasing journal visibility </li></ul><p>Are you interested or do you have any questions? Please contact us by sending an email to info@openjournals.nl. </p>"
+
+
+msgid "indexjournal.start.submission"
+msgstr "Start submission"
+
+msgid "indexjournal.becomeReviewer"
+msgstr "Become a Reviewer"
+
+
+
+
+msgid "general.latest.issue"
+msgstr "Latest issue"
+
+msgid "general.volume"
+msgstr "Volume"
+
+msgid "general.issue"
+msgstr "Issue"
+
+msgid "general.year"
+msgstr "Year"
+
+msgid "general.view.issue"
+msgstr "View this issue"
+
+
+
+
+msgid "general.abstract"
+msgstr "Abstract"
+
+msgid "general.datePublished"
+msgstr "Published"
+
+msgid "general.issueFull"
+msgstr "Issue"
+
+msgid "general.section"
+msgstr "Section"
+
+msgid "general.download"
+msgstr "Download"
+
+msgid "general.how.cite"
+msgstr "How to cite"
+
+msgid "general.keywords"
+msgstr "Keywords"
+
+msgid "general.licensing"
+msgstr "License"
+
+msgid "general.powered.by"
+msgstr "This journal is powered by"
+
+
+msgid "general.search.this.journal"
+msgstr "Search this journal"
+
+msgid "archivepage.title"
+msgstr "Archives"
+
+msgid "aboutpage.title"
+msgstr "About the Journal"
+
+msgid "editorialpage.title"
+msgstr "Editorial team"
+
+msgid "article.authors"
+msgstr "Author(s)"
