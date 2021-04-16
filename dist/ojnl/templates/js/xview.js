@@ -9,7 +9,7 @@ function handleXview() {
     xhr.onreadystatechange= function() {
         if (this.readyState!==4) return;
         if (this.status!==200) return; // or whatever error handling you want
-        //console.log(this.responseText);
+        console.log(this.responseText);
 
         //document.getElementById('citationFormat').innerHTML= this.responseText;
     };

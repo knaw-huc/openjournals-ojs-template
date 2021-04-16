@@ -36,7 +36,7 @@
 
        {include file="frontend/components/searchForm_simple.tpl"}
 
-     <div class="userNav dropdown">
+     <div class="dropdown">
 
        {load_menu name="user"}
      </div>

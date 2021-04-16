@@ -7,15 +7,9 @@
       {if $issue->getLocalizedCoverImageUrl()}
       <img src="{$issue->getLocalizedCoverImageUrl()}" alt="">
       {else}
-
-      {if $activeTheme->getOption('customThumbnail')}
-        <img src="{$baseUrl}/plugins/themes/ojnl/templates/images/thumbnails/{$currentJournal->getLocalizedData('abbreviation')|escape|lower}-issue.png">
-      {else}
-        <div class="ojnNoCoverDiv">
-          <img src="{$baseUrl}/plugins/themes/ojnl/templates/images/ojnllogo.png" alt="logo">
-        </div>
-      {/if}
-
+      <div class="ojnNoCoverDiv">
+        <img src="{$baseUrl}/plugins/themes/ojnl/templates/images/ojnllogo.png" alt="logo">
+      </div>
       {/if}
     </div>
     <div>
