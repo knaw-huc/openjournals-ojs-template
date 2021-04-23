@@ -18,37 +18,37 @@
  *}
 
 
- {include file="frontend/components/htmlHeader.tpl"}
- {include file="frontend/components/header.tpl"}
+{include file="frontend/components/htmlHeader.tpl"}
+{include file="frontend/components/header.tpl"}
 
 
- {**  breadcrumb  *}
-  <div class="ojLayout3col-OneDiv breadCrump textSmall hcBasicSideMargin hcMarginTop3">
-    <a href="{$baseUrl}">Openjournals.nl</a>
-    <span class="slash">/</span>
-    <a href="{$baseUrl}/index.php/{$currentJournal->getPath()}">{$currentJournal->getLocalizedName()}</a>
+{**  breadcrumb  *}
+<div class="ojLayout3col-OneDiv breadCrump textSmall hcBasicSideMargin hcMarginTop3">
+	<a href="{$baseUrl}">Openjournals.nl</a>
+	<span class="slash">/</span>
+	<a href="{$baseUrl}/index.php/{$currentJournal->getPath()}">{$currentJournal->getLocalizedName()}</a>
 
-  </div>
-
-
+</div>
 
 
-	<div class="ojLayout3col-basic hcMarginTop3">
-    {**  Col 1  *}
-    <div class="hcBasicSideMargin ojCoverAside hcMarginBottom2">
-			{* Image and description *}
-			{assign var="image" value=$category->getImage()}
-			{assign var="description" value=$category->getLocalizedDescription()|strip_unsafe_html}
-
-				{if $image}
-
-						<img src="{url router=$smarty.const.ROUTE_PAGE page="catalog" op="thumbnail" type="category" id=$category->getId()}" alt="null" />
-
-				{/if} </div>
 
 
-    {**  Col 2  *}
-    <main class="hcBasicSideMargin ojBasicWidth">
+<div class="ojLayout3col-basic hcMarginTop3">
+	{**  Col 1  *}
+	<div class="hcBasicSideMargin ojCoverAside hcMarginBottom2">
+		{* Image and description *}
+		{assign var="image" value=$category->getImage()}
+		{assign var="description" value=$category->getLocalizedDescription()|strip_unsafe_html}
+
+		{if $image}
+
+			<img src="{url router=$smarty.const.ROUTE_PAGE page="catalog" op="thumbnail" type="category" id=$category->getId()}" alt="null" />
+
+		{/if} </div>
+
+
+	{**  Col 2  *}
+	<main class="hcBasicSideMargin ojBasicWidth">
 
 
 
@@ -59,29 +59,29 @@
 
 		{* Count of articles in this category *}
 
-			{translate key="catalog.browseTitles" numTitles=$total}
+		{translate key="catalog.browseTitles" numTitles=$total}
 
 
 
 
-				{$description|strip_unsafe_html}
+		{$description|strip_unsafe_html}
 
 
-		{if !$subcategories->wasEmpty()}
-		<nav class="subcategories" role="navigation">
-			<h2>
-				{translate key="catalog.category.subcategories"}
-			</h2>
-			<ul>
-				{iterate from=subcategories item=subcategory}
-					<li>
-						<a href="{url op="category" path=$subcategory->getPath()}">
-							{$subcategory->getLocalizedTitle()|escape}
-						</a>
-					</li>
-				{/iterate}
-			</ul>
-		</nav>
+		{if $subcategories|@count}
+			<nav class="subcategories" role="navigation">
+				<h2>
+					{translate key="catalog.category.subcategories"}
+				</h2>
+				<ul>
+					{foreach from=$subcategories item=subcategory}
+						<li>
+							<a href="{url op="category" path=$subcategory->getPath()}">
+								{$subcategory->getLocalizedTitle()|escape}
+							</a>
+						</li>
+					{/foreach}
+				</ul>
+			</nav>
 		{/if}
 
 		<h2 class="title">
@@ -92,14 +92,14 @@
 		{if empty($publishedSubmissions)}
 			<p><em>{translate key="catalog.category.noItems"}</em></p>
 		{else}
-		<div class="ojList ojListArticles hcMarginTop1">
+			<div class="ojList ojListArticles hcMarginTop1">
 
 				{foreach from=$publishedSubmissions item=article}
 
-						{include file="frontend/objects/article_summary.tpl" article=$article hideGalleys=true}
+					{include file="frontend/objects/article_summary.tpl" article=$article hideGalleys=true}
 
 				{/foreach}
-	</div>
+			</div>
 
 			{* Pagination *}
 			{if $prevPage > 1}
@@ -111,12 +111,12 @@
 				{capture assign=nextUrl}{url router=$smarty.const.ROUTE_PAGE page="catalog" op="category" path=$category->getPath()|to_array:$nextPage}{/capture}
 			{/if}
 			{include
-				file="frontend/components/pagination.tpl"
-				prevUrl=$prevUrl
-				nextUrl=$nextUrl
-				showingStart=$showingStart
-				showingEnd=$showingEnd
-				total=$total
+			file="frontend/components/pagination.tpl"
+			prevUrl=$prevUrl
+			nextUrl=$nextUrl
+			showingStart=$showingStart
+			showingEnd=$showingEnd
+			total=$total
 			}
 		{/if}
 	</main>
@@ -125,14 +125,14 @@
 
 
 
-		{**  Col 3  *}
-		<div class="hcBasicSideMargin"> </div>
-	</div>
+	{**  Col 3  *}
+	<div class="hcBasicSideMargin"> </div>
+</div>
 
-	</div>
+</div>
 
 
-	{**  powered by  *}
-	{include file="frontend/components/htmlFooter.tpl"}
-	{**  footer  *}
-	{include file="frontend/components/poweredBy.tpl"}
+{**  powered by  *}
+{include file="frontend/components/htmlFooter.tpl"}
+{**  footer  *}
+{include file="frontend/components/poweredBy.tpl"}

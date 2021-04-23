@@ -7,36 +7,36 @@
  * Site index.
  *
  *}
- <!DOCTYPE html>
- <html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
-   <head>
-     <meta charset="{$defaultCharset|escape}">
-     <title>
+<!DOCTYPE html>
+<html lang="{$currentLocale|replace:"_":"-"}" xml:lang="{$currentLocale|replace:"_":"-"}">
+<head>
+  <meta charset="{$defaultCharset|escape}">
+  <title>
 
-         {$displayPageHeaderTitle} - {$siteTitle}
+    {$displayPageHeaderTitle} - {$siteTitle}
 
-     </title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <meta name="description" content="OpenJournals provides a professional OpenAccess publishing platform for scholarly, peer-reviewed journals. This platform is made possible by a collaboration between the KNAW, NWO and the OPUS Foundation.">
-     <meta name="keywords" content="Open Access, Open journal Systems, peer-reviewed journals, science">
-     <link rel="icon" type="image/png" href="{$baseUrl}/plugins/themes/ojnl/templates/images/favicon.png">
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OpenJournals provides a professional OpenAccess publishing platform for scholarly, peer-reviewed journals. This platform is made possible by a collaboration between the KNAW, NWO and the OPUS Foundation.">
+  <meta name="keywords" content="Open Access, Open journal Systems, peer-reviewed journals, science">
+  <link rel="icon" type="image/png" href="{$baseUrl}/plugins/themes/ojnl/templates/images/favicon.png">
 
-     {load_stylesheet context="frontend" stylesheets=$stylesheets}
-     {load_header context="frontend"}
-   </head>
-   <body>
+  {load_stylesheet context="frontend" stylesheets=$stylesheets}
+  {load_header context="frontend"}
+</head>
+<body>
 
 
 
 {include file="frontend/components/headerHome.tpl"}
 
 <div class="layoutBasic hcBasicSideMargin topMargin2">
- <div class="block hcMarginBottom3 textLong">
-   <h2>{translate key="indexSite.welcome"}</h2>
-	 {$about|nl2br}
+  <div class="block hcMarginBottom3 textLong">
+    <h2>{translate key="indexSite.welcome"}</h2>
+    {$about|nl2br}
 
 
- </div>
+  </div>
 </div>
 
 
@@ -66,38 +66,38 @@
 
 
       {*   journal cards *}
-      {if $journals->wasEmpty()}
-       {translate key="site.noJournals"}
-       {else}
+      {if !$journals|@count}
+        {translate key="site.noJournals"}
+      {else}
 
-       {iterate from=journals item=journal}
-
-
-       {capture assign="url"}{url journal=$journal->getPath()}{/capture}
-       {assign var="thumb" value=$journal->getLocalizedData('journalThumbnail')}
-       {assign var="description" value=$journal->getLocalizedDescription()}
+        {foreach from=$journals item=journal}
 
 
-       <div class="journalCard hcMarginBottom2" onclick="location.href='{$url|escape}'">
-         <div class="cardLogoBg hcMarginBottom1" style="background-color: hsl(0, 0%, 50%){*$journal->$activeTheme->getOption('baseColour')*}">
-           {if $thumb}<img src="{$journalFilesPath}{$journal->getId()}/{$thumb.uploadName|escape:"url"}"{if $thumb.altText} alt="{$thumb.altText|escape|default:''}"{/if}>{/if}
-         </div>
-         <div>
-           <strong>{$journal->getLocalizedName()}</strong><br>
-           {*if $description}{$description|nl2br*}{*/if*}
-           <a href="{$url|escape}">
-             {translate key="site.journalView"}
-           </a>
-         </div>
-        </div>
-        {/iterate}
-       {/if}
-       {* /  journal cards *}
+          {capture assign="url"}{url journal=$journal->getPath()}{/capture}
+          {assign var="thumb" value=$journal->getLocalizedData('journalThumbnail')}
+          {assign var="description" value=$journal->getLocalizedDescription()}
+
+
+          <div class="journalCard hcMarginBottom2" onclick="location.href='{$url|escape}'">
+            <div class="cardLogoBg hcMarginBottom1" style="background-color: hsl(0, 0%, 50%){*$journal->$activeTheme->getOption('baseColour')*}">
+              {if $thumb}<img src="{$journalFilesPath}{$journal->getId()}/{$thumb.uploadName|escape:"url"}"{if $thumb.altText} alt="{$thumb.altText|escape|default:''}"{/if}>{/if}
+            </div>
+            <div>
+              <strong>{$journal->getLocalizedName()}</strong><br>
+              {*if $description}{$description|nl2br*}{*/if*}
+              <a href="{$url|escape}">
+                {translate key="site.journalView"}
+              </a>
+            </div>
+          </div>
+        {/foreach}
+      {/if}
+      {* /  journal cards *}
 
 
 
 
-  </div>
+    </div>
   </div>
 
   {**  col 2  *}
@@ -142,5 +142,5 @@
 
 
 
-		{**  footer  *}
-		{include file="frontend/components/htmlFooter.tpl"}
+{**  footer  *}
+{include file="frontend/components/htmlFooter.tpl"}
